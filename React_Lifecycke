@@ -1,0 +1,10 @@
+shouldComponentUpdate(){
+  console.warn("shouldcomponent update")          ( this will block al the components should nbe updated like function call with  update )
+}
+
+shouldComponentUpdate(){
+  console.warn("shouldcomponent update")          ( now it will allow the components to update as it is mentioned true                    )
+  return true;
+}
+
+
